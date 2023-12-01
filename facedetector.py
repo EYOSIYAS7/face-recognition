@@ -45,10 +45,10 @@ def live_demo():
             cv2.putText(frame, " Walter white", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)
         elif(prediction == 0):
             
-            cv2.putText(frame, "donkey", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)
+            cv2.putText(frame, "jessie Pinkman", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)
         elif(prediction == 3):
             
-            cv2.putText(frame, "donkey", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)
+            cv2.putText(frame, "jessie pinkman", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)
     cv2.imshow("face detection app", frame)
 
     key = cv2.waitKey(1) 
@@ -88,10 +88,10 @@ def imge_demo(url):
         elif(prediction == 1):
             cv2.putText(cap, " Walter white", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)
         elif(prediction == 3):
-            cv2.putText(cap, "donkey", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)     
+            cv2.putText(cap, "Jessie pinkman", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)     
         elif(prediction == 0):
             
-            cv2.putText(cap, "donkey", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)
+            cv2.putText(cap, "Jessie pinkman", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)
             cv2.putText(cap, " ", (x, y+h+60), fontScale=2, fontFace= cv2.FONT_HERSHEY_SCRIPT_SIMPLEX , color=(255,255,255), thickness =3)
     cv2.imshow("face detection app", cap)
 
